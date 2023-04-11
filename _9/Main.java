@@ -61,11 +61,16 @@ public class Main {
         double ourDouble = 1.5;
         if (ourDouble > 2.5) {
             System.out.println("Greater than");
-        } else if ((ourDouble + 1.0) < 2.5) {
+        } else {
+            ourDouble += 1.0;
+        }
+        if (ourDouble > 2.5) {
+            System.out.println("Now greater than");
+        } else {
             System.out.println("Still less than");
-        } else System.out.println("Now greater than"); ;//Write your code here
+        }
+    }     //Write your code here
 
-    }
 
 
     /**
