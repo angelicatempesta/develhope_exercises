@@ -36,7 +36,7 @@ public class Main {
                 yourScore = 20;
                 break;
             default: yourScore = baseScore;
-            break;
+                break;
 
         }
 
