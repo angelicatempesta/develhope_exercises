@@ -63,27 +63,25 @@ public class Main {
             System.out.println("Greater than");
         } else {
             ourDouble += 1.0;
+            if (ourDouble > 2.5) {
+                System.out.println("Now greater than");
+            } else {
+                System.out.println("Still less than");
+            }
         }
-        if (ourDouble > 2.5) {
-            System.out.println("Now greater than");
-        } else {
-            System.out.println("Still less than");
-        }
+
     }     //Write your code here
-
-
-
-    /**
-     * 4: Create an if statement with 4 outcomes, (1 if, 2 else if and an else)
-     *
-     *    That checks the following:
-     *    1 - if our age is greater than OR EQUAL TO (>=) 65 print: "Retired"
-     *    2 - if our age is greater than OR EQUAL TO 35 but less than 65 print "Experienced Worker"
-     *    3 - if our age is greater than OR EQUAL TO 18 but less than 35 print "New Worker"
-     *    4 - if our age is less than 18 print: "School age"
-     *
-     *    Remember, the order is very important!
-     */
+/**
+ * 4: Create an if statement with 4 outcomes, (1 if, 2 else if and an else)
+ *
+ *    That checks the following:
+ *    1 - if our age is greater than OR EQUAL TO (>=) 65 print: "Retired"
+ *    2 - if our age is greater than OR EQUAL TO 35 but less than 65 print "Experienced Worker"
+ *    3 - if our age is greater than OR EQUAL TO 18 but less than 35 print "New Worker"
+ *    4 - if our age is less than 18 print: "School age"
+ *
+ *    Remember, the order is very important!
+ */
     private static void exercise4() {
         System.out.println("\nExercise 4:");
 
