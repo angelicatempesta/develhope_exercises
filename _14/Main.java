@@ -158,7 +158,8 @@ public class Main {
             for (int i = 1; i <= 10; i++) {
                 System.out.println(timesTableNumber * i);
 
-            }// Your fori loop here
+            }
+            System.out.println();// Your fori loop here
         }
     }
 }
